@@ -12,8 +12,6 @@ export default function Index() {
     >
       <Text className="font-bold text-3xl font-rubik my-10">Welcome to the HomeScape</Text>
       <Link href="/sign-in">Sign In</Link>
-      <Link href="/explore">Explore</Link>
-      <Link href="/profile">Profile</Link>
       <Link href={{ pathname: "/properties/[id]", params: { id: "1" } }}>Property</Link>
     </View>
   );
