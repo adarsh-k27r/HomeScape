@@ -40,7 +40,7 @@ export const GlobalProvider = ({ children }: GlobalProviderProps) => {
         isLogged,
         user,
         loading,
-        refetch
+        refetch,
       }}
     >
       {children}
